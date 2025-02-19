@@ -1,0 +1,10 @@
+To fix spacing errors, remove all unnecessary spaces around operators within the `calc()` expression. For unit mismatches, ensure that all units are consistent across the calculations; it's best to use the same unit throughout the expression for clarity and to prevent unexpected behaviour.
+
+```css
+/*Corrected example removing extra space*/
+width: calc(100px + 20%);
+
+/*Corrected example with consistent units*/
+height: calc(100px - 50px);
+```
+Always double-check your `calc()` expressions for proper syntax, space usage, and unit consistency to avoid runtime errors and achieve the intended layout results.
