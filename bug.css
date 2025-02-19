@@ -1,0 +1,18 @@
+The CSS property `calc()` is used to perform calculations, but sometimes it causes unexpected issues due to spaces or missing spaces. For example, a common mistake is to add spaces between the values and the operators.  This will lead to incorrect calculations or even syntax errors.
+
+```css
+/*Incorrect: Spaces around the + operator*/
+width: calc( 100px + 20px ); 
+
+/*Correct: No spaces around the + operator*/
+width: calc(100px + 20px);
+```
+Another issue can occur with unit mismatches. You must use consistent units within the `calc()` expression or unexpected results may occur.
+
+```css
+/*Incorrect: Mixing px and %*/
+width: calc(50% + 100px);
+
+/*Correct: Consistent unit usage*/
+width: calc(50vw + 100px); 
+```
