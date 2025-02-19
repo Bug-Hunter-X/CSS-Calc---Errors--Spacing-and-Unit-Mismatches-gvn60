@@ -1,0 +1,3 @@
+# CSS Calc() Errors: Spacing and Unit Mismatches
+
+This repository demonstrates common errors when using the `calc()` function in CSS, specifically focusing on incorrect spacing and unit mismatches.  The `bug.css` file contains examples of these errors, while `bugSolution.css` provides corrected versions. This is a common issue for developers starting with CSS calculations.  Understanding these pitfalls is crucial for ensuring consistent and reliable styles.
